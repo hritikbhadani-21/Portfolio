@@ -1,0 +1,61 @@
+.skills-section {
+  width: 100%;
+  background-color: #1a1a1a;
+  padding: 40px;
+  color: white;
+  border-radius: 10px;
+}
+
+.skills-section h2 {
+  font-size: 48px;
+  font-family: 'Lexend', sans-serif;
+  font-weight: 600;
+  text-decoration: underline;
+  line-height: 60px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.skills-container {
+  max-width: 1356px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skill-bar {
+  width: 48%;
+  margin-bottom: 20px;
+}
+
+.skill-name {
+  font-size: 24px;
+  font-family: 'Lexend', sans-serif;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: #333;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 24px;
+  background-color: #4caf50;
+  width: 0;
+  transition: width 2s ease;
+}
+
+/* Add animation delay to stagger the progress fill */
+.skill-bar:nth-child(1) .progress { transition-delay: 0.5s; }
+.skill-bar:nth-child(2) .progress { transition-delay: 1s; }
+.skill-bar:nth-child(3) .progress { transition-delay: 1.5s; }
+.skill-bar:nth-child(4) .progress { transition-delay: 2s; }
+.skill-bar:nth-child(5) .progress { transition-delay: 2.5s; }
+.skill-bar:nth-child(6) .progress { transition-delay: 3s; }
+.skill-bar:nth-child(7) .progress { transition-delay: 3.5s; }
+.skill-bar:nth-child(8) .progress { transition-delay: 4s; }

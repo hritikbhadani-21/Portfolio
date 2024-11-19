@@ -1,0 +1,155 @@
+
+.services-section {
+  width: 1359px;
+  padding: 40px;
+  text-align: center;
+}
+
+.services-section h2 {
+  font-size: 64px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  text-decoration: underline;
+  line-height: 96px;
+  margin-bottom: 40px;
+  color: #000000;
+}
+
+.services-grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.service-card {
+  width: 415px;
+  border-radius: 27px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+}
+
+.service-card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 20px;
+  text-align: left;
+}
+
+.card-content h3 {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  color: #274c5b;
+  margin-bottom: 8px;
+}
+
+.card-content p {
+  font-size: 18px;
+  font-family: 'Yellowtail', cursive;
+  color: #7eb693;
+  margin-bottom: 16px;
+}
+
+.social-icons img{
+  margin-left: 10px;
+  cursor: pointer;
+  height: 27.8px;
+  width: 30px;
+  padding-left: 10px;
+}
+
+.social-icons{
+  margin-left: 225px;
+  margin-top: -90px;
+ 
+}
+
+
+.contact-form {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #ecfffd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.animated-title {
+  font-weight: 700;
+  font-size: 48px;
+  color: #282938;
+  text-align: center;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.form-inputs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 496px;
+}
+
+label {
+  font-weight: 400;
+  font-size: 16px;
+  color: #282938;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 2px solid transparent;
+  border-image: linear-gradient(to right, yellow, green) 1;
+  border-radius: 28px;
+  outline: none;
+  font-size: 16px;
+  color: #282938;
+}
+
+textarea {
+  height: 120px;
+  resize: none;
+}
+
+.submit-button {
+  padding: 18px 42px;
+  background-color: #282938;
+  color: #ffffff;
+  border: 2px solid transparent;
+  border-image: linear-gradient(to right, purple, orange) 1;
+  border-radius: 28px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.submit-button:hover {
+  background-color: #404054;
+}
