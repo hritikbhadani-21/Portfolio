@@ -1,0 +1,114 @@
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1440px;
+  height: 89px;
+  background-color: #b0c4de;
+  padding: 0 20px;
+  border-radius: 5px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile-pic {
+  background-image:"src\assets\my pic.png";
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.name {
+  font-size: 24px;
+  font-family: 'Playball', cursive;
+  color: #000000;
+}
+
+.nav-links a {
+  font-size: 25.88px;
+  font-family: 'Lexend', sans-serif;
+  font-weight: 300;
+  margin: 0 20px;
+  color: #000000;
+  text-decoration: none;
+ 
+
+}
+.nav-links  {
+  margin-right: -500px;
+
+}
+.connect {
+  background-color: #4e60ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 11px;
+  font-family: 'Lexend', sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+  
+}
+
+
+
+.contact-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1348px;
+  height: 730px;
+  padding: 20px;
+  background-color: white;
+}
+
+.text-container {
+  max-width: 534px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Lexend', sans-serif;
+}
+
+.text-container h1 {
+  font-size: 48px;
+  font-family: 'Lexend', sans-serif;
+  font-weight: 600;
+  line-height: 65.7px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.text-container p {
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.text-container button {
+  background-color: #4e60ff;
+  color: white;
+  border: none;;
+  padding: 10px 20px;
+  border-radius: 45px;
+  cursor: pointer;
+  font-size: 21.79px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  
+}
+
+.image-container {
+  max-width: 656px;
+}
+
+.image-container img {
+  
+  max-width: 100%;
+  height: auto;
+}
